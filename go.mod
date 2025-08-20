@@ -1,4 +1,4 @@
-module github.com/libdns/desec
+module github.com/quite/fork-libdns--desec
 
 go 1.23.0
 

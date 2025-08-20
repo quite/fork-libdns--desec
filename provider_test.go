@@ -26,8 +26,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/libdns/desec"
 	"github.com/libdns/libdns"
+	desec "github.com/quite/fork-libdns--desec"
 )
 
 var (
