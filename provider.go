@@ -95,6 +95,8 @@ type Provider struct {
 	// Token is a token created on https://desec.io/tokens. A basic token without the permission
 	// to manage tokens is sufficient.
 	Token string `json:"token,omitempty"`
+
+	OverrideDomain string `json:"override_domain,omitempty"`
 }
 
 // GetRecords lists all the records in the zone.
